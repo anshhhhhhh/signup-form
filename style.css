@@ -1,0 +1,61 @@
+@font-face {
+    font-family: LearningCurve;
+    src: url(font/learning_curve_regular_ot_ps.otf) format("opentype");
+}
+
+@font-face {
+    font-family: LearningCurve;
+    font-weight: bold;
+    src: url(font/learning_curve_bold_ot_ps.otf) format("opentype");
+}
+
+body{
+    background-image: url(images/quino-al-JFeOy62yjXk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 40vw 100vh;
+    background-color: lightgray;
+}
+
+#cont{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#title{
+    color: white;
+    margin-top: 30vh;
+    margin-right: 0px;
+    width: 40vw;
+    font-size: 5vw;
+    font-family: LearningCurve;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#text{
+    width: 30vw;
+    padding-top: 15vh;
+    padding-left: 2.5vw;
+    
+    font-size: 1.25vw;
+}
+
+#frm{
+    background-color: white;
+    margin-left: -0.4vw;
+    min-width: 60vw;
+    max-width: 60vw;
+    
+    height: 30vh;
+    box-shadow: 5px 5px 7px rgb(160, 159, 159);
+}
+
+#text2{
+    padding-left: 2.5vw;
+    padding-top: 1vw;
+    font-size: 2vw;
+}
